@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/EDNombre"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nombre"
+         >
+    </EditText>
+
+    <EditText
+        android:id="@+id/EDTelefono"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+       android:hint="@string/telefono"
+        >
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10"
+         >
+         
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/aceptar"
+            android:layout_weight="5"
+            android:id="@+id/btInsertar"
+            ></Button>
+        
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ver"
+            android:layout_weight="5"
+            android:id="@+id/btVer"
+            ></Button>
+    </LinearLayout>
+    
+</LinearLayout>
